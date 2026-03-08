@@ -213,16 +213,16 @@ export default function PersonalWebsite() {
                     <p className="mb-2 text-xs uppercase tracking-[0.2em] text-slate-500">
                       identity
                     </p>
-                    <p>{">"} 姓名：{profile.name}</p>
-                    <p>{">"} 学校：{profile.school}</p>
+                    <p>{">"} {profile.name}</p>
+                    <p>{">"} {profile.school}</p>
                   </div>
 
                   <div className="rounded-2xl border border-white/10 bg-[#0b1526] p-4">
                     <p className="mb-2 text-xs uppercase tracking-[0.2em] text-slate-500">
                       focus
                     </p>
-                    <p>{">"} 研究方向：{profile.research}</p>
-                    <p>{">"} 地点：{profile.location}</p>
+                    <p>{">"} {profile.research}</p>
+                    <p>{">"} {profile.location}</p>
                   </div>
                 </div>
 
